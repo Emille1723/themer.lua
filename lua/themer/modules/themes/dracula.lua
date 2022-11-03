@@ -120,9 +120,14 @@ local cp = {
     keyword = base.pink,
     constant = base.purple,
     -- my additions for testing, so far they do nothing
-    parameter = base.orange,
-    identifier = base.orange,
-    field = base.white,
+--     parameter = base.orange,
+--     identifier = base.orange,
+--     field = base.white,
+    syntax = {
+        parameter = base.orange,
+      identifier = base.orange,
+      field = base.white,
+    }
   },
   diagnostic = {
     error = base.red,
