@@ -90,7 +90,7 @@ local cp = {
   },
   border = base.purple,
   syntax = {
-    statement = base.pink,
+    statement = base.cyan,
     ["function"] = base.green,
     variable = base.white,
     include = base.cyan,
