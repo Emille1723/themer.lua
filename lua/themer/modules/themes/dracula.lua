@@ -16,10 +16,11 @@ local base = {
   base0E = "#ff92df",
   base0F = "#f7f7fb",
   white = "#F8F8F2",
+  light_white = "#FFFFF7",
   darker_black = "#232531",
 --   black = "#282A36", --  nvim bg
   black = "#000000",
-  black2 = "#21222C",
+  charcoal = "#21222C",
   one_bg = "#373844", -- real bg of onedark
   one_bg2 = "#44475a",
   one_bg3 = "#565761",
@@ -67,7 +68,7 @@ local cp = {
   cyan = base.cyan,
 
   -- The new shiny boy
-  directory = base.black2,
+  directory = base.charcoal,
   fg = base.white,
   diff = {
     add = base.green,
@@ -76,7 +77,7 @@ local cp = {
     change = base.yellow,
   },
   accent = base.base0C,
-  search_result = { fg = base.white, bg = base.black2, telescope = base.green },
+  search_result = { fg = base.light_white, bg = base.charcoal, telescope = base.green },
   match = base.green,
   dimmed = {
     inactive = base.base03,
@@ -84,22 +85,22 @@ local cp = {
   },
   bg = {
     base = base.black,
-    alt = base.black2,
+    alt = base.charcoal,
     selected = base.selection,
   },
   border = base.purple,
   syntax = {
-    statement = base.base08,
+    statement = base.pink,
     ["function"] = base.green,
     variable = base.white,
     include = base.cyan,
-    keyword = base.base0E,
+    keyword = base.purple,
     struct = base.base0E,
     string = base.yellow,
     identifier = base.base08,
-    field = base.white,
+    field = base.purple,
     parameter = base.orange,
-    property = base.base08,
+    property = base.purple,
     punctuation = base.base0F,
     constructor = base.base0C,
     operator = base.pink,
@@ -113,8 +114,8 @@ local cp = {
     conditional = base.pink
   },
   built_in = {
-    ["function"] = base.base0C,
-    type = base.base0A,
+    ["function"] = base.green,
+    type = base.pink,
     variable = base.white,
     keyword = base.base0E,
     constant = base.purple,
@@ -125,7 +126,7 @@ local cp = {
     info = base.green,
     hint = base.purple,
   },
-  inc_search = { fg = base.base01, bg = base.base09 },
+  inc_search = { fg = base.light_white, bg = base.charcoal },
   uri = base.base08,
   pum = {
     fg = base.base06,
