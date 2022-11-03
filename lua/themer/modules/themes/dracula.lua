@@ -100,7 +100,7 @@ local cp = {
     identifier = base.orange,
     field = base.white,
     parameter = base.orange,
-    property = base.cyan,
+    property = base.white,
     punctuation = base.base0F,
     constructor = base.cyan,
     operator = base.pink,
@@ -115,7 +115,7 @@ local cp = {
   },
   built_in = {
     ["function"] = base.green,
-    type = base.pink,
+    type = base.cyan,
     variable = base.white,
     keyword = base.base0E,
     constant = base.purple,
