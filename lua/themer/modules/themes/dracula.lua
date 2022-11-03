@@ -113,7 +113,7 @@ local cp = {
   built_in = {
     ["function"] = base.base0C,
     type = base.base0A,
-    variable = base.purple,
+    variable = base.white,
     keyword = base.base0E,
     constant = base.purple,
   },
