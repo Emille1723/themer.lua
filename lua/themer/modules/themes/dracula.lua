@@ -69,7 +69,7 @@ local cp = {
 
   -- The new shiny boy
   directory = base.charcoal,
-  fg = base.white,
+  fg = base.light_white,
   diff = {
     add = base.green,
     remove = base.red,
@@ -119,8 +119,10 @@ local cp = {
     variable = base.purple,
     keyword = base.pink,
     constant = base.purple,
+    -- my additions for testing, so far they do nothing
     parameter = base.orange,
     identifier = base.orange,
+    field = base.white,
   },
   diagnostic = {
     error = base.red,
@@ -132,7 +134,7 @@ local cp = {
   uri = base.base08,
   pum = {
     fg = base.base06,
-    bg = base.one_bg,
+    bg = base.charcoal,
     sbar = base.one_bg2,
     thumb = base.nord_blue,
     sel = {
