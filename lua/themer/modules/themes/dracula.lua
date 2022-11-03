@@ -95,13 +95,13 @@ local cp = {
     variable = base.white,
     include = base.cyan,
     keyword = base.pink,
-    struct = base.base0E,
+    struct = base.pink,
     string = base.yellow,
     identifier = base.orange,
     field = base.white,
     parameter = base.orange,
     property = base.white,
-    punctuation = base.base0F,
+    punctuation = base.purple,
     constructor = base.cyan,
     operator = base.pink,
     preproc = base.base0A,
@@ -123,11 +123,6 @@ local cp = {
 --     parameter = base.orange,
 --     identifier = base.orange,
 --     field = base.white,
-    syntax = {
-        parameter = base.orange,
-      identifier = base.orange,
-      field = base.white,
-    }
   },
   diagnostic = {
     error = base.red,
