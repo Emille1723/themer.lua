@@ -116,8 +116,8 @@ local cp = {
   built_in = {
     ["function"] = base.green,
     type = base.cyan,
-    variable = base.white,
-    keyword = base.base0E,
+    variable = base.purple,
+    keyword = base.pink,
     constant = base.purple,
   },
   diagnostic = {
