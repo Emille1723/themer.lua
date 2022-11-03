@@ -119,6 +119,8 @@ local cp = {
     variable = base.purple,
     keyword = base.pink,
     constant = base.purple,
+    parameter = base.orange,
+    identifier = base.orange,
   },
   diagnostic = {
     error = base.red,
