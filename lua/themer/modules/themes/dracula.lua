@@ -89,11 +89,12 @@ local cp = {
     alt = base.charcoal,
     selected = base.selection,
   },
-  border = base.purple,
+  border = base.cyan,
   syntax = {
     statement = base.cyan,
     ["function"] = base.green,
-    variable = base.white,
+--     variable = base.white,
+    variable = base.purple,
     include = base.green,
     keyword = base.pink,
     struct = base.pink,
@@ -134,13 +135,13 @@ local cp = {
   inc_search = { fg = base.light_white, bg = base.charcoal },
   uri = base.base08,
   pum = {
-    fg = base.base06,
+    fg = base.light_white,
     bg = base.charcoal,
     sbar = base.one_bg2,
     thumb = base.nord_blue,
     sel = {
       bg = base.pmenu_bg,
-      fg = base.base05,
+      fg = base.light_white,
     },
   },
   heading = {
