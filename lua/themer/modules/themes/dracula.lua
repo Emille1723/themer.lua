@@ -67,7 +67,7 @@ local cp = {
   cyan = base.cyan,
 
   -- The new shiny boy
-  directory = base.folder_bg,
+  directory = base.black2,
   fg = base.white,
   diff = {
     add = base.green,
