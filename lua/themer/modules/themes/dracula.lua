@@ -19,7 +19,7 @@ local base = {
   darker_black = "#232531",
 --   black = "#282A36", --  nvim bg
   black = "#000000",
-  black2 = "#303341",
+  black2 = "#21222C",
   one_bg = "#373844", -- real bg of onedark
   one_bg2 = "#44475a",
   one_bg3 = "#565761",
@@ -76,15 +76,15 @@ local cp = {
     change = base.yellow,
   },
   accent = base.base0C,
-  search_result = { fg = base.base01, bg = base.base0A, telescope = base.green },
-  match = base.base06,
+  search_result = { fg = base.white, bg = base.black2, telescope = base.green },
+  match = base.green,
   dimmed = {
     inactive = base.base03,
     subtle = base.grey_fg,
   },
   bg = {
     base = base.black,
-    alt = base.black,
+    alt = base.black2,
     selected = base.selection,
   },
   border = base.purple,
