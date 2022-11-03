@@ -51,7 +51,8 @@ local base = {
   lightbg2 = "#2f313d",
   pmenu_bg = "#b389ef",
 --   folder_bg = "#BD93F9",
-  folder_bg = "#42A5F5"
+  folder_bg = "#42A5F5",
+  comment = "#959595",
 }
 
 local cp = {
@@ -59,10 +60,10 @@ local cp = {
   red = base.red,
   yellow = base.yellow,
   orange = base.orange,
-  magenta = base.dark_purple,
+  magenta = base.purple,
   blue = base.blue,
   green = base.green,
-  cyan = base.teal,
+  cyan = base.cyan,
 
   -- The new shiny boy
   directory = base.folder_bg,
@@ -74,7 +75,7 @@ local cp = {
     change = base.yellow,
   },
   accent = base.base0C,
-  search_result = { fg = base.base01, bg = base.base0A, telescope = base.base0A },
+  search_result = { fg = base.base01, bg = base.base0A, telescope = base.green },
   match = base.base06,
   dimmed = {
     inactive = base.base03,
@@ -93,7 +94,7 @@ local cp = {
     include = base.cyan,
     keyword = base.base0E,
     struct = base.base0E,
-    string = base.base0B,
+    string = base.yellow,
     identifier = base.base08,
     field = base.base0A,
     parameter = base.orange,
@@ -102,11 +103,11 @@ local cp = {
     constructor = base.base0C,
     operator = base.base05,
     preproc = base.base0A,
-    constant = base.base09,
+    constant = base.purple,
     todo = { fg = base.base0A, bg = base.base01 },
     number = base.base09,
-    comment = base.base03,
-    type = base.base0A,
+    comment = base.comment,
+    type = base.pink,
 --     conditional = base.base0E,
     conditional = base.pink
   },
